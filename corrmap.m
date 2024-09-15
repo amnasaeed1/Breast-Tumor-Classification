@@ -14,17 +14,7 @@ colormap(parula); % Choose a colormap (e.g., jet, hot, cool, etc.)
 colormap(turbo)
 
 colormap(hsv)
-colormap(hot)
-colormap(cool)
-colormap(spring)
-colormap(summer)
-colormap(autumn)
-colormap(winter)
-colormap(gray)
-colormap(bone)
-colormap(copper)
-colormap(pink)
-colormap(sky)
+
 variable_names = data.Properties.VariableNames; % Adjust based on actual data structure
 
 xticklabels(variable_names);
